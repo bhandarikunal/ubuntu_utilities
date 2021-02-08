@@ -1,0 +1,10 @@
+[mysqld]
+windowing_use_high_precision=0
+binlog_expire_logs_seconds=86400
+tmp_table_size=2G
+max_heap_table_size=2G
+innodb_file_per_table
+innodb_flush_method=O_DIRECT
+innodb_log_file_size=1G
+innodb_buffer_pool_size=4G
+big_tables=1

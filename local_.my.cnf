@@ -1,0 +1,12 @@
+[mysqldump]
+user=<user>
+password=<password>
+
+[client]
+user=<user>
+password=<password>
+host=127.0.0.1
+
+[mysqld_safe]
+[mysqld]
+secure_file_priv=""
