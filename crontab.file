@@ -22,6 +22,7 @@
 # 
 # m h  dom mon dow   command
 0 0 * * * /home/kunal/py_env/bin/python /home/kunal/py_env/py_projects/portfolio_manager/daily_stock_data_us.py > ~/logs/daily_stock_data_us.log 2>&1
+1 18 * * * /home/kunal/py_env/bin/python /home/kunal/py_env/py_projects/portfolio_manager/daily_filings_data_us.py > ~/logs/daily_filings_data_us.log 2>&1
 0 6 * * * /home/kunal/py_env/bin/python /home/kunal/py_env/py_projects/portfolio_manager/daily_stock_data_in.py > ~/logs/daily_stock_data_in.log 2>&1
 0 12 1 * * /home/kunal/py_env/bin/python /home/kunal/py_env/py_projects/portfolio_manager/historical_stock_data.py > ~/logs/historical_stock_data.log 2>&1
 16 16 * * * /home/kunal/py_env/bin/python /home/kunal/py_env/py_projects/mysql_backup/mysql_backup.py > ~/logs/mysql_backup.log 2>&1
